@@ -5,12 +5,15 @@
 ## User settings
 xcuserdata/
 
+<<<<<<< HEAD
 ## Xcode build
 DerivedData/
 *.xccheckout
 *.moved-aside
 build/
 
+=======
+>>>>>>> df6f8e9ab2a0ae366c74180819f1b4bff16f23a2
 ## Obj-C/Swift specific
 *.hmap
 
@@ -62,13 +65,19 @@ Carthage/Build/
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/#source-control
 
+<<<<<<< HEAD
 .DS_Store
 
+=======
+>>>>>>> df6f8e9ab2a0ae366c74180819f1b4bff16f23a2
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+<<<<<<< HEAD
 
 # Swift Package Manager
 Packages/**/.build/
 Packages/**/.swiftpm/xcode/xcuserdata/
+=======
+>>>>>>> df6f8e9ab2a0ae366c74180819f1b4bff16f23a2
