@@ -1,0 +1,5 @@
+14:    var currentStreamingContent: String = ""
+41:        currentStreamingContent = ""
+49:            currentStreamingContent += token
+56:            content: currentStreamingContent,
+64:        currentStreamingContent = ""

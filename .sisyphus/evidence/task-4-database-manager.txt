@@ -1,0 +1,7 @@
+Task 4 验证证据
+====================
+
+4. withUnsafeBytes 验证
+-------------------------------
+        vector.withUnsafeBytes { buffer in
+        vector.withUnsafeMutableBytes { buffer in

@@ -1,0 +1,3 @@
+Verification for func handleConflict(local: File, remote: File):
+
+    public func handleConflict(local: File, remote: File) async -> ConflictResolution {

@@ -1,0 +1,18 @@
+Task 7 Verification Evidence - SearchEngine
+
+=== swift build output ===
+[0/1] Planning build
+Building for debugging...
+[0/1] Write swift-version--58304C5D6DBC2206.txt
+Build of target: 'KnowledgeVaultCore' complete! (0.22s)
+
+=== grep: func search(query: String, mode: SearchMode, limit: Int) ===
+    func search(query: String, mode: SearchMode, limit: Int) async throws -> [SearchResult]
+
+=== grep: func minMaxNormalize ===
+    private func minMaxNormalize(_ scores: [(String, Double)]) -> [(String, Double)] {
+
+=== grep: hybridAlpha ===
+        let hybridAlpha = vaultConfig.hybridAlpha
+        let semanticWeight = 1.0 - hybridAlpha
+            let hybridScore = normalizedScore * hybridAlpha

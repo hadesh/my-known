@@ -1,0 +1,10 @@
+验证 @Observable 宏使用
+
+文件: KnowledgeVault-iOS/Features/Inbox/InboxViewModel.swift
+检查命令: grep "@Observable" InboxViewModel.swift
+
+验证结果:
+// Inbox 功能的 ViewModel，使用 @Observable 宏（iOS 17+）
+@Observable
+
+✅ 已验证：InboxViewModel.swift 使用了 @Observable 宏（符合 iOS 17+ 规范）

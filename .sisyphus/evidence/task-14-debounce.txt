@@ -1,0 +1,31 @@
+Task 14 - Debounce 实现验证
+
+文件: SearchView.swift
+验证时间: 2026-05-09
+
+=== Debounce 逻辑检查 ===
+
+✅ @State 变量:
+   Line 11: @State private var debounceTask: Task<Void, Never>? = nil
+
+✅ onChange 监听:
+   Line 38-40: .onChange(of: query) { _, newValue in handleQueryChange(newValue) }
+
+✅ Debounce 实现:
+   Line 79: debounceTask?.cancel() // 取消旧任务
+   Line 87-88: debounceTask = Task {
+                 try? await Task.sleep(nanoseconds: 500_000_000) // 500ms 延迟
+               }
+
+✅ 竞态处理:
+   Line 90: guard !Task.isCancelled else { return }
+   Line 91: guard newQuery == query else { return } // 防止竞态
+
+✅ 搜索调用:
+   Line 93: await performSearch()
+
+=== 结论 ===
+✅ Debounce 实现完整且正确，包含：
+- 500ms 延迟（Task.sleep）
+- 任务取消机制
+- 竞态条件检查

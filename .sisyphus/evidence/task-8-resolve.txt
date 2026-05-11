@@ -1,0 +1,3 @@
+Verification for static func resolve:
+
+    public static func resolve(local: File, remote: File) -> ConflictResolution {

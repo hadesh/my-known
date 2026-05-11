@@ -1,0 +1,4 @@
+AsyncThrowingStream check in SSEParser:
+8:    public func parseStream(from response: URLResponse, bytes: URLSession.AsyncBytes) -> AsyncThrowingStream<String, Error> {
+9:        AsyncThrowingStream { continuation in
+34:    private func processBuffer(continuation: AsyncThrowingStream<String, Error>.Continuation) async {

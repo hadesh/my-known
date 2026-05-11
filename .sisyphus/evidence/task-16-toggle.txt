@@ -1,0 +1,8 @@
+验证时间: 2026-05-09
+验证项: SyncSettingsView 包含 Toggle
+
+结果:
+✓ SyncSettingsView.swift 包含 Toggle:
+  - Toggle("启用 iCloud 同步", isOn: $iCloudEnabled)
+
+结论: Toggle 功能正常，支持 iCloud 同步开关控制

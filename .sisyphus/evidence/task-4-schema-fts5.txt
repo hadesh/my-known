@@ -1,0 +1,6 @@
+Task 4 验证证据
+====================
+
+2. fts5 验证
+-------------------------------
+CREATE VIRTUAL TABLE IF NOT EXISTS entries_fts USING fts5(

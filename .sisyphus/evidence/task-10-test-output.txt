@@ -1,0 +1,96 @@
+Building for debugging...
+[0/2] Write swift-version--58304C5D6DBC2206.txt
+Build complete! (0.11s)
+Test Suite 'All tests' started at 2026-05-09 18:09:47.340.
+Test Suite 'All tests' passed at 2026-05-09 18:09:47.341.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+◇ Test run started.
+↳ Testing Library Version: 1743
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite PromptBuilderTests started.
+◇ Suite SSEParserTests started.
+◇ Suite ConflictResolverTests started.
+◇ Suite DatabaseManagerTests started.
+◇ Suite SearchEngineTests started.
+◇ Suite FrontmatterParserTests started.
+◇ Test testConflictResolverLocalWins() started.
+◇ Test testConflictResolverNewerWins() started.
+◇ Suite CosineSimilarityTests started.
+◇ Test testMinMaxNormalizeEmpty() started.
+◇ Test testConflictResolverSameTimestampUsesRemote() started.
+◇ Test testMinMaxNormalize() started.
+◇ Test testEntryIDIsTextColumn() started.
+◇ Test testSearchEngineFTSMode() started.
+◇ Test testMinMaxNormalizeSameValues() started.
+◇ Test testEmbeddingBlobRoundtrip() started.
+◇ Test testFrontmatterParseEntrySourceAliasMapping() started.
+◇ Test testFrontmatterParseTitleAndTags() started.
+◇ Test testFTSInsertAndSearch() started.
+◇ Test testSSEParserEmptyData() started.
+◇ Test testEstimateTokensEmptyString() started.
+◇ Test testDeleteCascadesEmbedding() started.
+◇ Test testBuildSystemPromptMultipleContexts() started.
+◇ Test testSSEParserMultipleDeltas() started.
+◇ Test testSSEParserDoneTerminates() started.
+◇ Test testSSEParserDeltaTextFormat() started.
+◇ Test testEstimateTokensLongText() started.
+◇ Test testHybridAlphaFromConfig() started.
+◇ Test testSSEParserDeltaExtraction() started.
+◇ Test testBuildSystemPromptNotEmpty() started.
+◇ Test testBuildSystemPromptWithContexts() started.
+◇ Test testPromptBuilderTokenTruncationWithinBudget() started.
+◇ Test testEstimateTokensBasic() started.
+✔ Test testConflictResolverNewerWins() passed after 0.001 seconds.
+✔ Test testMinMaxNormalizeEmpty() passed after 0.001 seconds.
+◇ Test testSSEParserMessageFormat() started.
+◇ Test testCosineSimilaritySameVector() started.
+✔ Test testConflictResolverLocalWins() passed after 0.001 seconds.
+✔ Test testConflictResolverSameTimestampUsesRemote() passed after 0.001 seconds.
+◇ Test testPromptBuilderTokenTruncation() started.
+◇ Test testCosineSimilarityDimensionMismatch() started.
+◇ Test testFrontmatterRoundtrip() started.
+◇ Test testCosineSimilarityOrthogonal() started.
+◇ Test testCosineSimilarityDifferentMagnitudes() started.
+◇ Test testCosineSimilarityEmptyVector() started.
+◇ Test testCosineSimilarityZeroVector() started.
+◇ Test testCosineSimilarityOppositeDirection() started.
+✔ Test testMinMaxNormalize() passed after 0.001 seconds.
+✔ Test testMinMaxNormalizeSameValues() passed after 0.001 seconds.
+✔ Test testFrontmatterParseTitleAndTags() passed after 0.001 seconds.
+✔ Test testFrontmatterParseEntrySourceAliasMapping() passed after 0.001 seconds.
+✔ Test testSSEParserEmptyData() passed after 0.001 seconds.
+✔ Test testSSEParserDeltaTextFormat() passed after 0.001 seconds.
+✔ Test testBuildSystemPromptNotEmpty() passed after 0.001 seconds.
+✔ Test testSSEParserDeltaExtraction() passed after 0.001 seconds.
+✔ Test testSSEParserDoneTerminates() passed after 0.001 seconds.
+✔ Test testEstimateTokensLongText() passed after 0.001 seconds.
+✔ Test testEstimateTokensEmptyString() passed after 0.001 seconds.
+✔ Test testBuildSystemPromptMultipleContexts() passed after 0.001 seconds.
+✔ Test testSSEParserMultipleDeltas() passed after 0.001 seconds.
+✔ Suite ConflictResolverTests passed after 0.001 seconds.
+✔ Test testBuildSystemPromptWithContexts() passed after 0.001 seconds.
+✔ Test testPromptBuilderTokenTruncationWithinBudget() passed after 0.001 seconds.
+✔ Test testEstimateTokensBasic() passed after 0.001 seconds.
+✔ Test testCosineSimilarityDimensionMismatch() passed after 0.001 seconds.
+✔ Test testCosineSimilaritySameVector() passed after 0.001 seconds.
+✔ Test testCosineSimilarityEmptyVector() passed after 0.001 seconds.
+✔ Test testCosineSimilarityDifferentMagnitudes() passed after 0.001 seconds.
+✔ Test testPromptBuilderTokenTruncation() passed after 0.001 seconds.
+✔ Test testCosineSimilarityZeroVector() passed after 0.001 seconds.
+✔ Test testSSEParserMessageFormat() passed after 0.001 seconds.
+✔ Test testCosineSimilarityOppositeDirection() passed after 0.001 seconds.
+✔ Test testFrontmatterRoundtrip() passed after 0.001 seconds.
+✔ Test testCosineSimilarityOrthogonal() passed after 0.001 seconds.
+✔ Suite FrontmatterParserTests passed after 0.001 seconds.
+✔ Suite PromptBuilderTests passed after 0.001 seconds.
+✔ Suite SSEParserTests passed after 0.001 seconds.
+✔ Suite CosineSimilarityTests passed after 0.001 seconds.
+✔ Test testFTSInsertAndSearch() passed after 0.026 seconds.
+✔ Test testEmbeddingBlobRoundtrip() passed after 0.028 seconds.
+✔ Test testEntryIDIsTextColumn() passed after 0.029 seconds.
+✔ Test testDeleteCascadesEmbedding() passed after 0.031 seconds.
+✔ Suite DatabaseManagerTests passed after 0.031 seconds.
+✔ Test testHybridAlphaFromConfig() passed after 0.032 seconds.
+✔ Test testSearchEngineFTSMode() passed after 0.032 seconds.
+✔ Suite SearchEngineTests passed after 0.032 seconds.
+✔ Test run with 36 tests in 7 suites passed after 0.033 seconds.

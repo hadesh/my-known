@@ -1,0 +1,3 @@
+Verification for let modifiedAt: Date:
+
+    public let modifiedAt: Date

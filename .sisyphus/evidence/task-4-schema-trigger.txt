@@ -1,0 +1,6 @@
+Task 4 验证证据
+====================
+
+3. AFTER INSERT ON entries 触发器验证
+-------------------------------
+CREATE TRIGGER IF NOT EXISTS entries_ai AFTER INSERT ON entries BEGIN

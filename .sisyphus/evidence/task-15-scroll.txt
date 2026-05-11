@@ -1,0 +1,6 @@
+31:        ScrollViewReader { proxy in
+51:                scrollToBottom(proxy)
+55:                scrollToBottom(proxy)
+146:    private func scrollToBottom(_ proxy: ScrollViewProxy) {
+150:                proxy.scrollTo("streaming", anchor: .bottom)
+155:                proxy.scrollTo(lastMessage.id, anchor: .bottom)

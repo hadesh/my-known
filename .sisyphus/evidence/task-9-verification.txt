@@ -1,0 +1,39 @@
+# Task 9 Verification Evidence
+## Build Result
+
+SUCCESS: swift build completed with no errors in RAGPipeline.swift or PromptBuilder.swift
+
+Build timestamp: 2026-05-09
+
+## File Structure Created
+
+1. RAGPipeline.swift - Contains RAGPipeline struct and RAGOptions struct
+2. PromptBuilder.swift - Contains PromptBuilder struct and ContextSnippet struct
+3. Deleted placeholder file: RAG.swift
+
+## Interface Verification
+
+### grep "func query(question: String, options: RAGOptions)" RAGPipeline.swift
+```
+    public func query(question: String, options: RAGOptions) async throws -> AsyncStream<String> {
+```
+
+### grep "func estimateTokens" PromptBuilder.swift
+```
+    public static func estimateTokens(_ text: String) -> Int {
+```
+
+### grep "8000" RAGPipeline.swift
+```
+    /// 最大上下文 token 预算（默认 8000）
+    public var maxContextTokens: Int = 8000
+    public init(topK: Int = 5, mode: SearchMode = .hybrid, maxContextTokens: Int = 8000) {
+```
+
+## Implementation Summary
+
+- RAGPipeline.query() implements the full RAG flow: search → load Entry → buildSystemPrompt → LLMAgent.chat
+- RAGOptions has default values: topK=5, mode=.hybrid, maxContextTokens=8000
+- PromptBuilder.estimateTokens() uses text.count / 4 as the estimation
+- PromptBuilder.truncateContexts() truncates contexts based on token budget
+- ContextSnippet struct includes: fileID, title, path, content

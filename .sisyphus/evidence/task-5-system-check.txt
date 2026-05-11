@@ -1,0 +1,6 @@
+System field check in AnthropicProvider:
+41:        var systemMessage: String? = nil
+45:            if message.role == .system {
+46:                systemMessage = message.content
+63:        if let system = systemMessage {
+64:            body["system"] = system

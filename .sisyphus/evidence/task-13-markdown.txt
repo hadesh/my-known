@@ -1,0 +1,11 @@
+验证时间: 2026-05-09
+
+MarkdownRenderer 使用验证:
+在 EntryDetailView.swift 中找到:
+- 行 172: MarkdownRenderer(content: entry.content)
+
+TextEditor 使用验证:
+在 EntryDetailView.swift 中找到:
+- 行 167: TextEditor(text: $editedContent)
+
+状态: ✓ EntryDetailView 包含 MarkdownRenderer 和 TextEditor

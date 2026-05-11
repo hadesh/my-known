@@ -1,0 +1,20 @@
+=== Swift Build Output ===
+[0/1] Planning build
+Building for debugging...
+[0/1] Write swift-version--58304C5D6DBC2206.txt
+Build complete! (1.19s)
+
+=== Verification Grep Results ===
+
+1. static func parse in FrontmatterParser.swift:
+    public static func parse(_ content: String) -> (frontmatter: FrontmatterData?, body: String) {
+    private static func parseFrontmatterContent(_ content: String) -> FrontmatterData {
+    private static func parseSource(_ value: String) -> EntrySource? {
+
+2. isExcludedFromBackup in VaultFileManagerImpl.swift:
+        resourceValues.isExcludedFromBackup = true
+                try (coordinatedURL as NSURL).setResourceValue(true, forKey: .isExcludedFromBackupKey)
+
+3. camera-roll/share-extension alias in FrontmatterParser.swift:
+            "camera-roll": .camera,
+            "share-extension": .share,

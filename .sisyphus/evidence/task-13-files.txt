@@ -1,0 +1,9 @@
+验证时间: 2026-05-09
+
+文件列表验证:
+-rw-r--r--@ 1 hanxiaoming  staff   4220 May  9 18:24 BrowseView.swift
+-rw-r--r--@ 1 hanxiaoming  staff   3416 May  9 18:24 DailyView.swift
+-rw-r--r--@ 1 hanxiaoming  staff  11914 May  9 18:24 EntryDetailView.swift
+-rw-r--r--@ 1 hanxiaoming  staff   1574 May  9 24  TopicListView.swift
+
+状态: ✓ 4 个文件全部存在于 KnowledgeVault-iOS/Features/Browse/

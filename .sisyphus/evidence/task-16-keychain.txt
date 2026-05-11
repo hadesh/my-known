@@ -1,0 +1,12 @@
+验证时间: 2026-05-09
+验证项: LLMConfigView 使用 KeychainManager，不使用 UserDefaults/AppStorage
+
+结果:
+✓ LLMConfigView.swift 使用 KeychainManager:
+  - KeychainManager.saveAPIKey(for: selectedProvider, key: apiKey)
+  - KeychainManager.apiKey(for: selectedProvider)
+
+✓ LLMConfigView.swift 不使用 UserDefaults/AppStorage:
+  - grep 搜索结果: NONE
+
+结论: 约束满足，API Key 通过 Keychain 安全存储

@@ -1,0 +1,6 @@
+warning: 'knowledgevaultcore': found 1 file(s) which are unhandled; explicitly declare them as resources or exclude from the target
+    /Users/hanxiaoming/Desktop/github/my-known/Packages/KnowledgeVaultCore/Sources/KnowledgeVaultCore/Storage/schema.sql
+[0/1] Planning build
+Building for debugging...
+[0/1] Write swift-version--58304C5D6DBC2206.txt
+Build complete! (0.21s)

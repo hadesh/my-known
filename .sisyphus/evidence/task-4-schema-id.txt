@@ -1,0 +1,6 @@
+Task 4 验证证据
+====================
+
+1. id TEXT PRIMARY KEY 验证
+-------------------------------
+    id TEXT PRIMARY KEY,

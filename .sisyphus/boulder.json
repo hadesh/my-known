@@ -1,0 +1,31 @@
+{
+  "active_plan": "/Users/hanxiaoming/Desktop/github/my-known/.sisyphus/plans/bugfix-sse-anthropic-embedding.md",
+  "started_at": "2026-05-11T02:44:28.345Z",
+  "session_ids": [
+    "ses_1f439f235ffebdKw8LMeM53Nh7"
+  ],
+  "plan_name": "bugfix-sse-anthropic-embedding",
+  "session_origins": {
+    "ses_1f439f235ffebdKw8LMeM53Nh7": "direct"
+  },
+  "task_sessions": {
+    "todo:1": {
+      "task_key": "todo:1",
+      "task_label": "1",
+      "task_title": "修复 SSEParser：新增 Anthropic content_block_delta 分支",
+      "session_id": "ses_1eb136dbeffer804dtCmcFhCoj",
+      "agent": "Sisyphus-Junior",
+      "category": "quick",
+      "updated_at": "2026-05-11T02:46:06.438Z"
+    },
+    "todo:2": {
+      "task_key": "todo:2",
+      "task_label": "2",
+      "task_title": "修复 AnthropicProvider.embedding：改为抛出 notSupported 错误",
+      "session_id": "ses_1eb11cc5affeQJaNNxINUiyVxh",
+      "agent": "Sisyphus-Junior",
+      "category": "quick",
+      "updated_at": "2026-05-11T02:47:56.381Z"
+    }
+  }
+}

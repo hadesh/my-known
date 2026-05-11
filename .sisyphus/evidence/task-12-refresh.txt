@@ -1,0 +1,11 @@
+验证 .refreshable 修饰符
+
+文件: KnowledgeVault-iOS/Features/Inbox/InboxView.swift
+检查命令: grep "refreshable" InboxView.swift
+
+验证结果:
+        .refreshable {
+            await viewModel.loadEntries()
+        }
+
+✅ 已验证：InboxView.swift 包含了 .refreshable 修饰符（支持下拉刷新）

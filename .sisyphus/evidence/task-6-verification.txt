@@ -1,0 +1,42 @@
+=== Task 6 Verification ===
+
+1. File Structure:
+total 16
+drwxr-xr-x@  3 hanxiaoming  staff    96 May  9 17:28 .
+drwxr-xr-x@ 10 hanxiaoming  staff   320 May  9 17:04 ..
+-rw-r--r--@  1 hanxiaoming  staff  5040 May  9 17:29 EmbeddingEngine.swift
+
+2. cosineSimilarity function:
+    public func cosineSimilarity(_ a: [Float], _ b: [Float]) -> Float {
+
+3. vDSP functions:
+        // 使用 vDSP_dotpr 计算点积 (a · b)
+        vDSP_dotpr(a, 1, b, 1, &dotProduct, count)
+        // 使用 vDSP_svesq 计算向量模的平方 (||a||²)
+        vDSP_svesq(a, 1, &normASquared, count)
+        // 使用 vDSP_svesq 计算向量模的平方 (||b||²)
+        vDSP_svesq(b, 1, &normBSquared, count)
+
+4. Swift Build Result:
+warning: 'knowledgevaultcore': found 1 file(s) which are unhandled; explicitly declare them as resources or exclude from the target
+    /Users/hanxiaoming/Desktop/github/my-known/Packages/KnowledgeVaultCore/Sources/KnowledgeVaultCore/Storage/schema.sql
+[0/1] Planning build
+Building for debugging...
+[0/1] Write swift-version--58304C5D6DBC2206.txt
+Build complete! (0.22s)
+
+5. File Similarity struct:
+public struct FileSimilarity: Identifiable, Equatable {
+
+6. EmbeddingError enum:
+public enum EmbeddingError: Error {
+
+7. EmbeddingEngine actor:
+public actor EmbeddingEngine {
+
+8. import Accelerate:
+import Foundation
+import Accelerate
+
+// MARK: - 错误类型
+

@@ -1,0 +1,31 @@
+Task 14 - ContentUnavailableView 实现验证
+
+文件: SearchView.swift
+验证时间: 2026-05-09
+
+=== 空状态视图检查 ===
+
+✅ ContentUnavailableView 实现:
+   Line 49-56: ContentUnavailableView(
+               query.isEmpty ? "输入关键词开始搜索" : "暂无结果",
+               systemImage: "magnifyingglass",
+               description: Text(query.isEmpty ? "支持全文搜索和智能混合搜索" : "未找到匹配的知识条目")
+             )
+
+✅ 条件显示:
+   Line 30-34: if results.isEmpty && !isSearching {
+                 emptyStateView
+               } else {
+                 resultList
+               }
+
+✅ 动态文本:
+   - query.isEmpty 时: "输入关键词开始搜索"
+   - !query.isEmpty 时: "暂无结果"
+
+=== 结论 ===
+✅ ContentUnavailableView 实现完整且正确，包含：
+- 系统图标（magnifyingglass）
+- 动态标题（根据 query 状态）
+- 描述文本
+- 条件显示逻辑
